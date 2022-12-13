@@ -1,11 +1,9 @@
-for (var x=0; x<=15; x++) {
-        if (x === 0) {
-                console.log(x +  " is even");
-        }
-        else if (x % 2 === 0) {
-                console.log(x + " is even");   
-        }
-        else {
-                console.log(x + " is odd");
-        }
+// Loop from 0 to 15
+for (let i = 0; i <= 15; i++) {
+  // Check if the current number is odd or even
+  if (i % 2 === 0) {
+    console.log(i + " is even");
+  } else {
+    console.log(i + " is odd");
+  }
 }
